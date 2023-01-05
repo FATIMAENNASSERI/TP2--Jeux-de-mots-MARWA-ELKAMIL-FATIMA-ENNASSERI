@@ -20,6 +20,25 @@ de se familiariser avec des outils d’analyse spectrale dont Matlab
 dispose
  # Jeux de mots 
  
+      « phrase.wave » est un fichier audio enregistré à l’aide d’un smartphone, en 
+      prononçant lentement la phrase : 
+      - « Rien ne sert de courir, il faut partir à point ».
+## Script :
+
+![ommgg](https://user-images.githubusercontent.com/120643516/210886282-96d0f8ae-4301-404d-bd57-8d9bf72322cc.png)
+ 
+  Chaque pique de fréquence correspond à un mot de la phrase. Ondécoupe le fichier en morceaux (riennesertde, courir, ilfaut
+  
+partirapoint) chacune dans son intervalle de fréquence précis et finalement dans un vecteur newvoice on place le nouveau
+
+signal.
+
+![pppppppppppppppppppppppppp](https://user-images.githubusercontent.com/120643516/210886552-2ea821d3-0dcd-4a6e-b235-6a8d1d4fba97.png)
+
+
+
+
+ 
  
  # Synthèse et analyse spectrale d’une gamme de musique
  
