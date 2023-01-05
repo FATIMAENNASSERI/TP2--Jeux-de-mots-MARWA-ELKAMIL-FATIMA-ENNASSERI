@@ -40,7 +40,7 @@ fixée à 8192 Hz.
 
 <img width="400" alt="Screenshot 2023-01-05 223401" src="https://user-images.githubusercontent.com/87017143/210884317-42501d36-e106-47bd-ad66-730d96754998.png">
 
-# Spectre de la gamme de musique
+## Spectre de la gamme de musique
 
 
 
