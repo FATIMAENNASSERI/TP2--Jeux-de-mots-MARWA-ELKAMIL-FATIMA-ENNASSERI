@@ -20,9 +20,27 @@ de se familiariser avec des outils d’analyse spectrale dont Matlab
 dispose
  # Jeux de mots 
  
-      « phrase.wave » est un fichier audio enregistré à l’aide d’un smartphone, en 
-      prononçant lentement la phrase : 
-      - « Rien ne sert de courir, il faut partir à point ».
+  -« phrase.wave » est un fichier audio enregistré à l’aide d’un 
+smartphone, en prononçant lentement la phrase : 
+  - « Rien ne sert de courir, il faut partir à point ».
+  - Le but de cet exercice est d’échantillonner le signal en 4 
+morceaux après on change leur emplacements pour obtenir un 
+nouveau signal .
+  - Pour cela on charge le fichier 'phrase.wav', on le trace dans une 
+figure avec la commande plot() qui prend comme argument le 
+signal à visualiser .Dans ce cas on a pas précisé l’axe du temps 
+puisqu’on veut le visualiser en fonction de ses indices pour 
+pouvoir récupérer l’indice de chaque mot constituant la phrase.
+  - On peut entendre la phrase en appliquant sound().
+  -Lorsqu’on multiplie la fréquence d’échantillonnage par un facteur 2 
+sound(y,2*Fs) on obtient un son compressé, rapide et aigu. En effet, 
+cette modification revient à appliquer un changement d’échelle
+c.à.d. opérer une compression du spectre initiale d ou une version 
+plus aigu du signal écouté.
+  - Et si on divise la fréquence d’échantillonnage par 2 sound(y,Fs/2)on 
+dilate le signal d ou une version plus grave et moins rapide du 
+signal écouté 
+  
 ## Script :
 
 ![ommgg](https://user-images.githubusercontent.com/120643516/210886282-96d0f8ae-4301-404d-bd57-8d9bf72322cc.png)
